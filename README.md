@@ -2,7 +2,7 @@
 
 A Windows command-line tool for securely deleting files by overwriting their contents before removal, making forensic recovery significantly harder.
 
-> **SSD Warning:** On solid-state drives, wear-leveling means the OS cannot guarantee which physical flash cells are overwritten. For SSDs, full-disk encryption (e.g. BitLocker) is the recommended approach — when the key is destroyed, all data becomes unrecoverable.
+> **SSD Warning:** On solid-state drives, wear-leveling means the OS cannot guarantee which physical flash cells are overwritten. For SSDs, full-disk encryption (e.g. Veracrypt) is the recommended approach — when the key is destroyed, all data becomes unrecoverable.
 
 ## How It Works
 
